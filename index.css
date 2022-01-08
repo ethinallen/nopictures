@@ -1,0 +1,23 @@
+.page {
+  height: 100vh;
+  width: 100vw;
+  background-color: blue;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #1d3557;
+}
+
+#udick {
+  font-size: 4rem;
+}
+
+#udick:hover:before {
+  content:"u dick";
+}
+
+#udick:hover span{
+  display: none;
+}
